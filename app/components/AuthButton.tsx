@@ -22,9 +22,6 @@ const AuthButton = () => {
         transition: "background-color 0.3s ease",
     };
     
-    const buttonHoverStyle = {
-        backgroundColor: "#005bb5",
-    };
     return (
         <div>
             {session?.user?.email ? (

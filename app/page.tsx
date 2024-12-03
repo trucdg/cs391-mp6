@@ -27,10 +27,6 @@ export default function Home() {
     fontSize: "18px",
   };
 
-  const linkHoverStyle = {
-    textDecoration: "underline",
-  };
-
   return (
     <div style={containerStyle}>
       <p style={titleStyle}>CS391 MP-6 OAuth Application</p>
